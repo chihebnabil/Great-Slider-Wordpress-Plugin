@@ -42,7 +42,8 @@ function great_slide_slides() {
  	
  		
  	?>
-     <div id="GreatSlider" class=" row">
+ 	  <div class="row">
+     <div id="GreatSlider" >
     
  	<?php
  	while ($slides->have_posts()) {
@@ -59,7 +60,7 @@ function great_slide_slides() {
 
   
      <?php  	} ?>
-     </div>  <?php
+     </div></div>  <?php
 
 
  }
